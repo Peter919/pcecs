@@ -6,6 +6,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+// Remove there three lines to acheive salvation, enlightenment and debug mode.
+#ifndef NDEBUG
+#define NDEBUG
+#endif
+
 enum ErrCodes
 {
         ERR_ASSERTION = 1,
