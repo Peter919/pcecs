@@ -11,8 +11,7 @@
 #define NDEBUG
 #endif
 
-enum ErrCodes
-{
+enum ErrCodes {
         ERR_ASSERTION = 1,
         ERR_FILE_OPENING,
         ERR_LOGGING
